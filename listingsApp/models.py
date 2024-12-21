@@ -8,4 +8,5 @@ class Category(models.Model):
   class Meta:
     ordering = ('-name',)
 
-class 
+class Product(models.Model):
+  category = models.ForeignKey(Category, related_name='products', on_delete=models.CASCADE)
