@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'listingsApp.apps.istingsappConfig',
+    'listingsApp.apps.ListingsappConfig',
     'quizApp.apps.QuizappConfig'
 ]
 
