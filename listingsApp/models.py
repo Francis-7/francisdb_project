@@ -7,6 +7,7 @@ class Category(models.Model):
 
   class Meta:
     ordering = ('-name',)
+    verbose_name_plural = 'categories'
 
 class Product(models.Model):
   category = models.ForeignKey(Category, related_name='products', on_delete=models.CASCADE)
